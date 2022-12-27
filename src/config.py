@@ -13,17 +13,17 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1606221784  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "excrybaby"
-    SUPPORT_CHAT = "emikosupport"  # Your own group for support, do not add the @
+    API_ID = "9429810"   # integer value, dont use 
+    API_HASH = "06007846a1793a9883596434b299d0ed"
+    TOKEN = "AAFnvMd2jlM6Jlww2hDK9i6_EKdlQB94_yU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID =  1611359278 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Ricky_animeboy" "OP7AKASH"
+    SUPPORT_CHAT = "YonkoXHQ"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001432609692
+        -1001427087906
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001150905176
+        -1001427087906
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -40,7 +40,7 @@ class Config(object):
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEV_USERS = 5298587903 get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     DEMONS = get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
